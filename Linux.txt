@@ -1,0 +1,15 @@
+START XAMMP
+sudo /opt/lampp/lampp start
+sudo systemctl stop apache2
+sudo /opt/lampp/lampp startmysql
+
+START APACHE
+systemctl status mysql.service
+sudo systemctl reload apache2
+
+DESACTIVAR APACHE
+sudo systemctl disable apache2 && sudo systemctl stop apache2
+
+PHP XAMMP
+/opt/lampp/bin/php -i | grep xdebug
+

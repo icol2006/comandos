@@ -1,0 +1,8 @@
+ng generate component componentName 
+ng g m views/order --routing
+ng g c views/order/orders
+
+
+--base-href=/app_instituciones/client/dist/
+
+ng build --configuration production --base-href /app_instituciones/client/dist/
