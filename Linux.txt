@@ -13,3 +13,5 @@ sudo systemctl disable apache2 && sudo systemctl stop apache2
 PHP XAMMP
 /opt/lampp/bin/php -i | grep xdebug
 
+
+zip -r data.zip data/
