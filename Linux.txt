@@ -15,3 +15,5 @@ PHP XAMMP
 
 
 zip -r data.zip data/
+
+chmod -R 777 ./
