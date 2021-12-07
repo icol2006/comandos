@@ -17,3 +17,10 @@ PHP XAMMP
 zip -r data.zip data/
 
 chmod -R 777 ./
+
+cp -R origen destino
+
+rm -d dirname
+rm -r dirname   archivos recursivos
+
+sudo systemctl enable --now xrdp
